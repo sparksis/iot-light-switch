@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: iot-light-switch
+  description: "iot-light-switch"
+  annotations:
+    github.com/project-slug: sparksis/iot-light-switch
+spec:
+  type: service
+  lifecycle: experimental
+  owner: sparksis
